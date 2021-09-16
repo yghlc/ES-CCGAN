@@ -25,7 +25,7 @@ set -eE -o functrace
 # run inference (need to prepare files and folder)
 mkdir new_data    # put new files
 cp ./img/haze/City01_grid_0460816384.jpg new_data/.
-mkdir results-densenet/8 # where saving the results
+mkdir -p results-densenet/8 # where saving the results
 python inference.py --model model/fog2unfog.pb    # run inference.
 
 
