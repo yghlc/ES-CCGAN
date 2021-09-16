@@ -19,8 +19,8 @@ set -eE -o functrace
 # 2 Need to install keras==2.2.4, keras==2.2.5 not working.
 
 #### show help
-python train.py --help
-python inference.py --help
+#python train.py --help
+#python inference.py --help
 
 # run inference (need to prepare files and folder)
 mkdir new_data    # put new files
